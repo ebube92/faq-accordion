@@ -1,0 +1,23 @@
+{
+  "name": "faq-accordion-solution",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebube92/faq-accordion.git"
+  },
+  "author": "ebube92",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebube92/faq-accordion/issues"
+  },
+  "homepage": "https://github.com/ebube92/faq-accordion#readme",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
