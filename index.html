@@ -19,26 +19,44 @@
   </head>
 
   <body
-    class="bg-[hsl(275,100%,97%)] bg-[url(/assets/images/background-pattern-mobile.svg)] md:bg-[url(/assets/images/background-pattern-desktop.svg)] bg-no-repeat w-full bg-top min-h-screen bg-cover flex items-center justify-center"
+    class="bg-[hsl(275,100%,97%)] bg-[url(/assets/images/background-pattern-mobile.svg)] md:bg-[url(/assets/images/background-pattern-desktop.svg)] bg-no-repeat bg-[length:100%] w-full bg-top min-h-screen flex items-center justify-center"
   >
-    <section class="">
-      <div class="">
+    <section
+      class="bg-[#ffffff] w-[80%] md:w-full max-w-[700px] p-6 md:p-12 rounded-xl shadow-lg font-work-sans"
+    >
+      <div class="flex items-center gap-4 mb-8">
         <img src="/assets/images/icon-star.svg" alt="faq star icon" />
-        <h1>FAQs</h1>
+        <h1 class="text-6xl font-bold text-[hsl(293,46%,14%)]">FAQs</h1>
       </div>
 
       <dl>
-        <div class="faq-item">
+        <div class="py-4 border-b-1 border-b-gray-200">
           <dt>
-            <button aria-expanded="false" id="question-1">
-              <span>What is Frontend Mentor, and how will it help me?</span>
+            <button
+              aria-expanded="false"
+              id="question-1"
+              class="flex items-center justify-between w-full my-3 cursor-pointer"
+            >
+              <span class="font-bold text-[18px] text-[hsl(293,46%,14%)]"
+                >What is Frontend Mentor, and how will it help me?</span
+              >
               <span aria-hidden="true"
-                ><img src="/assets/images/icon-plus.svg" alt="expand icon"
+                ><img
+                  id="icon-plus"
+                  src="/assets/images/icon-plus.svg"
+                  alt="expand icon" />
+                <img
+                  id="icon-minus"
+                  class="hidden"
+                  src="/assets/images/icon-minus.svg"
+                  alt="close icon"
               /></span>
             </button>
           </dt>
-          <dd aria-labelledby="question-1" id="answer1">
-            <p>
+          <dd aria-labelledby="question-1" id="answer-1">
+            <p
+              class="transition-opacity-opacity duration-300 opacity-0 text-[hsl(291,6%,56%)] text-[16px] py-4 hidden"
+            >
               Frontend Mentor offers realistic coding challenges to help
               developers improve their frontend coding skills with projects in
               HTML, CSS, and JavaScript. It's suitable for all levels and ideal
@@ -47,17 +65,33 @@
           </dd>
         </div>
 
-        <div class="faq-item">
+        <div class="py-4 border-b-1 border-b-gray-200">
           <dt>
-            <button aria-expanded="false" id="question-2">
-              <span>Is Frontend Mentor free?</span>
+            <button
+              aria-expanded="false"
+              id="question-2"
+              class="flex items-center justify-between w-full my-3 cursor-pointer"
+            >
+              <span class="font-bold text-[18px] text-[hsl(293,46%,14%)]"
+                >Is Frontend Mentor free?</span
+              >
               <span aria-hidden="true"
-                ><img src="/assets/images/icon-plus.svg" alt="expand icon"
+                ><img
+                  id="icon-plus"
+                  src="/assets/images/icon-plus.svg"
+                  alt="expand icon" />
+                <img
+                  id="icon-minus"
+                  class="hidden"
+                  src="/assets/images/icon-minus.svg"
+                  alt="close icon"
               /></span>
             </button>
           </dt>
-          <dd aria-labelledby="question-2" id="answer2">
-            <p>
+          <dd aria-labelledby="question-2" id="answer-2">
+            <p
+              class="transition-opacity-opacity duration-300 opacity-0 text-[hsl(291,6%,56%)] text-[16px] py-4 hidden"
+            >
               Yes, Frontend Mentor offers both free and premium coding
               challenges, with the free option providing access to a range of
               projects suitable for all skill levels.
@@ -65,17 +99,31 @@
           </dd>
         </div>
 
-        <div class="faq-item">
+        <div class="py-4 border-b-1 border-b-gray-200">
           <dt>
-            <button aria-expanded="false" id="question-3">
-              <span>Can I use Frontend Mentor projects in my portfolio?</span>
+            <button
+              aria-expanded="false"
+              id="question-3"
+              class="flex items-center justify-between w-full my-3 cursor-pointer"
+            >
+              <span class="font-bold text-[18px] text-[hsl(293,46%,14%)]"
+                >Can I use Frontend Mentor projects in my portfolio?</span
+              >
               <span aria-hidden="true"
-                ><img src="/assets/images/icon-plus.svg" alt="expand icon"
+                ><img
+                  id="icon-plus"
+                  src="/assets/images/icon-plus.svg"
+                  alt="expand icon" />
+                <img
+                  id="icon-minus"
+                  class="hidden"
+                  src="/assets/images/icon-minus.svg"
+                  alt="close icon"
               /></span>
             </button>
           </dt>
-          <dd aria-labelledby="question-3" id="answer3">
-            <p>
+          <dd aria-labelledby="question-3" id="answer-3">
+            <p class="text-[hsl(291,6%,56%)] text-[16px] py-4 hidden">
               Yes, you can use projects completed on Frontend Mentor in your
               portfolio. It's an excellent way to showcase your skills to
               potential employers!
@@ -83,20 +131,32 @@
           </dd>
         </div>
 
-        <div class="faq-item">
+        <div class="py-4 border-b-1 border-b-gray-200">
           <dt>
-            <button aria-expanded="false" id="question-4">
-              <span
+            <button
+              aria-expanded="false"
+              id="question-4"
+              class="flex items-center justify-between w-full my-3 cursor-pointer"
+            >
+              <span class="font-bold text-[18px] text-[hsl(293,46%,14%)]"
                 >How can I get help if I'm stuck on a Frontend Mentor
                 challenge?</span
               >
               <span aria-hidden="true"
-                ><img src="/assets/images/icon-plus.svg" alt="expand icon"
+                ><img
+                  id="icon-plus"
+                  src="/assets/images/icon-plus.svg"
+                  alt="expand icon" />
+                <img
+                  id="icon-minus"
+                  class="hidden"
+                  src="/assets/images/icon-minus.svg"
+                  alt="close icon"
               /></span>
             </button>
           </dt>
-          <dd aria-labelledby="question-4" id="answer4">
-            <p>
+          <dd aria-labelledby="question-4" id="answer-4">
+            <p class="text-[hsl(291,6%,56%)] text-[16px] py-4 hidden">
               The best place to get help is inside Frontend Mentor's Discord
               community. There's a help channel where you can ask questions and
               seek support from other community members.
