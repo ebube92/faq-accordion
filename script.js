@@ -17,14 +17,12 @@ buttons.forEach((btn) => {
       answer.classList.remove("hidden");
       answer.classList.add("block");
       answer.classList.replace("opacity-0", "opacity-100", 600);
-      console.log("Answer is now visible");
       iconMinus.forEach((icon) => icon.classList.remove("hidden"));
       iconPlus.forEach((icon) => icon.classList.add("hidden"));
     } else {
       answer.classList.add("hidden");
       answer.classList.remove("block");
       answer.classList.replace("opacity-100", "opacity-0", 600);
-      console.log("Answer is now hidden");
       iconMinus.forEach((icon) => icon.classList.add("hidden"));
       iconPlus.forEach((icon) => icon.classList.remove("hidden"));
     }
