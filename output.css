@@ -269,6 +269,9 @@
   .bg-\[url\(\/assets\/images\/background-pattern-mobile\.svg\)\] {
     background-image: url(/assets/images/background-pattern-mobile.svg);
   }
+  .bg-\[url\(assets\/images\/background-pattern-mobile\.svg\)\] {
+    background-image: url(assets/images/background-pattern-mobile.svg);
+  }
   .bg-\[length\:100\%\] {
     background-size: 100%;
   }
@@ -346,6 +349,11 @@
   .md\:bg-\[url\(\/assets\/images\/background-pattern-desktop\.svg\)\] {
     @media (width >= 48rem) {
       background-image: url(/assets/images/background-pattern-desktop.svg);
+    }
+  }
+  .md\:bg-\[url\(assets\/images\/background-pattern-desktop\.svg\)\] {
+    @media (width >= 48rem) {
+      background-image: url(assets/images/background-pattern-desktop.svg);
     }
   }
   .md\:p-12 {
